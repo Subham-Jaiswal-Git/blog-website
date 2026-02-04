@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import ArticleModal from "../Components/ArticleModal";
+import ArticleModal from './ArticleModal';
 
 export default function ArticleGrid() {
   const [posts, setPosts] = useState([]);
